@@ -16,3 +16,17 @@
 .c{
     font-family: "Poppins", sans-serif;
 }
+
+/* background image */
+#a{
+    background-image: url("https://ik.imagekit.io/ub0g8ffns/MERN/Dhoni%20ipl2023%20finals%20HD%204k.jpeg?updatedAt=1740129973636");
+    height: 500px;
+    width: 500px;
+    background-size: contain;
+}
+#b{
+    background-image: url("https://ik.imagekit.io/ub0g8ffns/MERN/Dhoni%20ipl2023%20finals%20HD%204k.jpeg?updatedAt=1740129973636");
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}
