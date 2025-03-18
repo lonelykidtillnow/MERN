@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css</title>
+    
+    <!--css-->
+    <style>
+        /* constant color */
+        :root{
+            --primary-color:red;
+            --secondary-color:gold;
+        }
+        h1{
+            background-color: var(--primary-color);
+        }
+        p{
+            background-color: var(--secondary-color);
+        }
+
+        /* box-sizing */
+        h4{
+            background-color: purple;
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+            box-sizing: border-box;     /*default ah content-box irukum */
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>hello</h1>
+    <p>rajesh</p>
+    <h1>welcome</h1>
+    <p>rajesh</p>
+    <h4>hello</h4>
+</body>
+</html>
